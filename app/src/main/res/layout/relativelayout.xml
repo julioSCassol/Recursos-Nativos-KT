@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <AnalogClock
+        android:id="@+id/simpleAnalogClock"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_button"
+        android:layout_marginTop="16dp"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="0.5" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/relative_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Relativo" />
+
+
+</RelativeLayout>
